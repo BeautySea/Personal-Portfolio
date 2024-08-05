@@ -1,0 +1,34 @@
+.scrollbar-thin {
+    scrollbar-width: thin;
+}
+.code-block-pre-text {
+    font-size: inherit; 
+    font-family: inherit; 
+    background: rgb(46, 52, 64); 
+    color: rgb(216, 222, 233); 
+    border-radius: 3px; 
+    display: flex; 
+    line-height: 1.42857; 
+    overflow-x: auto; 
+    white-space: pre;
+}
+.code-block-code-text {
+    font-size: inherit; 
+    font-family: inherit; 
+    line-height: 1.66667; 
+    padding: 8px 10px 8px 8px; 
+    float: left;
+}
+.code-font {
+    font-size: inherit; 
+    font-family: inherit; 
+    line-height: 1.66667; 
+    padding: 8px;
+}
+.primary-code-text {
+    color: rgb(129, 161, 193);
+    font-weight: bolder;
+}
+.general-code-text {
+    color: rgb(163, 190, 140);
+}

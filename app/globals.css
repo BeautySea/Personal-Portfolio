@@ -25,7 +25,40 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
-
+@layer components {
+  .custom-size {
+      @apply md:w-[calc(100vw-2.5rem)] md:h-[calc(100vh-2.5rem)] w-[calc(100vw-2rem)] h-[calc(100vh-2rem)];
+    }
+    .react-syntax-highlighter-line-number {
+      @apply text-[#607B96];
+    }
+    code .token {
+      @apply text-[#607B96] !important;
+    }
+    
+    .efofCE {
+      @apply bg-transparent p-0 !important;
+    }
+    
+    .efofCE span {
+      @apply bg-transparent !important;
+    }
+    
+    .sc-bcXHqe.kBPKLM {
+      @apply hidden !important;
+    }
+    
+    .loHkWQ {
+      @apply bg-transparent p-0 !important;
+    }
+    
+    .loHkWQ span {
+      @apply bg-transparent !important;
+    }
+    .sc-bcXHqe.iCXprV {
+      @apply hidden !important;
+    }
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;
